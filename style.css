@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(168, 168, 168);
+
+}
+
+.main{
+    background-image: url(./immg/cottage-glen-etive-scotland.jpg);
+
+    width: 100vw;
+    height: 100vh;
+    /* border: 5px solid green; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    /* border: 2px solid red; */
+    background-color: #000000d0;
+    padding:1em;
+    width: 85%;
+    max-width: 420px;
+    border-radius: 30px;
+    margin: 1em;
+}
+
+.search_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 0.3em 0.3em;
+    border-radius: 24px;
+    background-color: #7c7c7c2d;
+    color: rgb(168, 168, 168);
+    font-size: 90%;    
+}
+
+button{
+    margin: 0.3em;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 2.3em;
+    width: 2.3em;
+    background-color: #7c7c7c2d;
+    color: rgb(168, 168, 168);
+    font-size: 90%;    
+
+}
+
+.result_div{
+    display: flex;
+    color: rgb(107, 107, 107);
+    margin-left: 10px;
+}
+
+.sub {
+    display: flex;
+    color: rgb(107, 107, 107);
+    margin-left: 10px;
+}
+#weather_condition {
+    margin-left:30px ;
+    color: rgb(168, 168, 168);
+}
+
+.sub2{
+    display: flex;
+    margin-top: 1.6rem;
+}
+
+nav{
+    text-align: center;
+}
+
+#tempC{
+    font-size: 42px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+.right_div{
+    margin-left: 2em;
+}
+
+.right_div div{
+    margin: 10PX;
+}
+
+.left_div div{
+    margin: 10PX;
+}

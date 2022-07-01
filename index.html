@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://kit.fontawesome.com/6b896963d9.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- should be responsive
+how to call labraiy in JS 
+.json
+axios     axios-http.com
+
+
+    -->
+    </head>
+
+    <body>
+
+        <div class="main">
+
+            <div class="nav_div">
+                <nav class="nav-bar">
+                    <h1>Weather App</h1>
+                </nav>
+            </div>
+
+
+            <div class="card">
+
+                <div class="search_div">
+                    <form onsubmit="myFunction(); return false">
+                        <input type="text" id="city" placeholder="Enter your City name">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+                <div class="result_div">
+                    <!-- <img src="" alt="" id="weather_icon"> -->
+
+                    <div id="tempC"></div>
+                    <!-- <div id="tempF"></div> -->
+
+                </div>
+                <div class="sub">
+                    <div id="city_name"></div>
+                    <div id="weather_condition"></div>
+                </div>
+
+                <div class="sub2">
+                    <div class="left_div">
+                        <div id="feels_like"></div>
+                        <div id="humidity"></div>
+                        <div id="cloud"></div>
+                    </div>
+
+                    <div class="right_div">
+                        <div id="temp_f"></div>
+                        <div id="wind"></div>
+                        <div id="visibility"></div>
+                        <div id="wind_speed"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <script src="./app.js"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>
