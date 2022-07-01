@@ -41,16 +41,18 @@ body{
 }
 
 input{
+    text-align: center;
+    width: 230px;
     border: none;
     outline: none;
-    padding: 0.3em 0.3em;
+    padding: 0.8em 0.8em;
     border-radius: 24px;
     background-color: #7c7c7c2d;
     color: rgb(168, 168, 168);
     font-size: 90%;    
 }
 
-button{
+/* button{
     margin: 0.3em;
     border-radius: 50%;
     border: none;
@@ -61,7 +63,7 @@ button{
     color: rgb(168, 168, 168);
     font-size: 90%;    
 
-}
+} */
 
 .result_div{
     display: flex;
