@@ -1,4 +1,9 @@
+let imgdiv = document.querySelector(`.img_div`);
+
+
 let myFunction = () =>{
+
+    imgdiv.style.display = "block";
 
     let city = document.querySelector("#city").value;
     axios.get(`https://api.weatherapi.com/v1/current.json?key=b52a1217af194e27bfa155504223006&q=${city}`)

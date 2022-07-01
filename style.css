@@ -11,7 +11,8 @@ body{
 }
 
 .main{
-    background-image: url(./immg/cottage-glen-etive-scotland.jpg);
+    background-image: url(./immg/bg\ img.jpeg);
+    background-size: cover;
 
     width: 100vw;
     height: 100vh;
@@ -88,12 +89,12 @@ nav{
 }
 
 #tempC{
-    font-size: 42px;
+    font-size: 60px;
 }
 
 img{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 
 .right_div{
