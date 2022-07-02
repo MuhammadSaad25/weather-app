@@ -18,6 +18,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Weather App</title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./mobile.css" media="(max-device-width:720px)">
+        <link rel="stylesheet" href="./mobile2.css" media="(max-device-width:350px)">
         <script src="https://kit.fontawesome.com/6b896963d9.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
         <!-- should be responsive
@@ -32,34 +34,36 @@ axios     axios-http.com
     <body>
 
         <div class="main">
-
             <div class="nav_div">
-                <nav class="nav-bar">
+                <!-- <nav class="nav-bar"> -->
                     <h1>Weather App</h1>
-                </nav>
+                <!-- </nav> -->
+                <!-- <div class="search_div"> -->
+                    <form onsubmit="myFunction(); return false">
+                        <input type="text" id="city" placeholder="Enter your City name">
+                        <!-- <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+                    </form>
+                <!-- </div> -->
+
             </div>
 
 
             <div class="card">
 
-                <div class="search_div">
-                    <form onsubmit="myFunction(); return false">
-                        <input type="text" id="city" placeholder="Enter your City name">
-                        <!-- <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-                    </form>
-                </div>
 
-                <div class="result_div" >
+                <div class="result_div">
                     <div class="img_div" style="display: none;">
-                        <img src="" alt="" id="weather_icon" >
+                        <img src="" alt="" id="weather_icon">
                     </div>
 
                     <div id="tempC"></div>
-                    <!-- <div id="tempF"></div> -->
+                    <div id="tempF"></div>
 
                 </div>
                 <div class="sub">
                     <div id="city_name"></div>
+                    <div id="time"></div>
+                    <div id="last_update"></div>
                     <div id="weather_condition"></div>
                 </div>
 
