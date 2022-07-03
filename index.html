@@ -35,10 +35,10 @@ axios     axios-http.com
 
         <div class="main">
             <div class="nav_div">
-                    <h1>Weather App</h1>
-                    <form onsubmit="myFunction(); return false">
-                        <input type="text" id="city" placeholder="Enter your City name">
-                    </form>
+                <h1>Weather App</h1>
+                <form onsubmit="myFunction(); return false">
+                    <input type="text" id="city" placeholder="Enter your City name">
+                </form>
 
             </div>
 
@@ -47,35 +47,36 @@ axios     axios-http.com
 
 
                 <div class="result_div">
+
                     <div class="img_div" style="display: none;">
                         <img src="" alt="" id="weather_icon">
                     </div>
-
-                    <div id="tempC"></div>
-                    <div id="tempF"></div>
+                    <div class="temp_result">
+                        <div id="tempC"></div>
+                        <div id="tempF"></div>
+                    </div>
 
                 </div>
+
                 <div class="sub">
-                    <div id="city_name"></div>
-                    <div id="time"></div>
-                    <div id="last_update"></div>
-                    <div id="weather_condition"></div>
-                </div>
-
-                <div class="sub2">
-                    <div class="left_div">
-                        <div id="feels_like"></div>
+                    <div class="left">
+                        <div id="time"></div>
+                        <div id="city_name"></div>
+                        <div id="feels_like_c"></div>
                         <div id="humidity"></div>
-                        <div id="cloud"></div>
+                        <div id="wind_speed_kph"></div>
+
                     </div>
 
-                    <div class="right_div">
-                        <div id="temp_f"></div>
-                        <div id="wind"></div>
+                    <div class="right">
+                        <div id="last_update"></div>
+                        <div id="weather_condition"></div>
+                        <div id="feels_like_f"></div>
                         <div id="visibility"></div>
-                        <div id="wind_speed"></div>
+                        <div id="wind_speed_mph"></div>
                     </div>
                 </div>
+
             </div>
         </div>
 
