@@ -1,19 +1,7 @@
-.nav_div {
-  padding: 1rem;
-  height: 15%;
-}
-
 h1{
     font-size: 36px;
 }
 
-form{
-    width: 100%;
-}
-
 #city{
     font-size: 20px;
-    height: 65%;
-    margin-left: 0;
-    width: 100%;
 }

@@ -1,9 +1,7 @@
 .nav_div{
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1em;
     height: 15%;
 }
 h1{
@@ -17,10 +15,7 @@ form{
 #city{
     padding-left: 0.1%;
     text-align:center;
-    color: #fff;
-    font-weight: bold;
     opacity: 0.7;
-    font-style: italic;
     margin-left: 0;
-    width: 100%;
+    width: 98%;
 }
