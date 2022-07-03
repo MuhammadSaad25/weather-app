@@ -1,7 +1,22 @@
-h1{
-    font-size: 36px;
+h1 {
+  font-size: 36px;
 }
 
-#city{
-    font-size: 20px;
+img {
+  margin-left: 0.5rem;
+  width: 100px;
 }
+
+.temp_result {
+  font-size: 36px;
+  margin: 2rem 0 0 1rem;
+}
+
+.sub {
+    font-size: 10px;
+  }  
+
+#city {
+  font-size: 20px;
+}
+
